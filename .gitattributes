@@ -1,0 +1,2 @@
+consumer_jpeg_data filter=lfs diff=lfs merge=lfs -text
+consumer_tiff_data filter=lfs diff=lfs merge=lfs -text
