@@ -1,0 +1,22 @@
+
+real	0m1.396s
+user	0m1.380s
+sys	0m0.012s
+
+ Performance counter stats for './__run 1 100':
+
+         3,087,211      branch-misses                                                 (54.23%)
+           821,043      cache-misses              #    0.047 % of all cache refs      (54.24%)
+     1,741,014,101      cache-references                                              (54.24%)
+     2,819,974,004      cpu-cycles                                                    (63.39%)
+     5,127,454,091      instructions              #    1.82  insns per cycle          (64.14%)
+       1398.522592      cpu-clock (msec)                                            
+           796,412      L1-dcache-load-misses     #    0.05% of all L1-dcache hits    (64.24%)
+     1,732,350,100      L1-dcache-loads                                               (64.34%)
+           762,041      L1-dcache-store-misses                                        (64.27%)
+     1,743,421,989      L1-dcache-stores                                              (64.20%)
+         3,008,488      branch-load-misses                                            (63.91%)
+       238,779,983      branch-loads                                                  (54.45%)
+
+       1.398831328 seconds time elapsed
+

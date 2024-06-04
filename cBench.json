@@ -1,0 +1,127 @@
+[
+        [
+                "automotive_bitcount",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 17"
+        ],
+        [
+                "automotive_qsort1",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 50"
+        ],
+        [
+                "automotive_susan_c",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 129"
+        ],
+        [
+                "automotive_susan_e",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 87"
+        ],
+        [
+                "automotive_susan_s",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 15"
+        ],
+        [
+                "bzip2d",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 13"
+        ],
+        [
+                "bzip2e",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 8"
+        ],
+        [
+                "consumer_jpeg_c",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 253"
+        ],
+        [
+                "consumer_jpeg_d",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 402"
+        ],
+        [
+                "consumer_lame",
+                "clang -O3 *.c -I. -DLAMESNDFILE -DHAVEMPGLIB -DLAMEPARSE -o a.out -lm",
+                "./__run 1 50"
+        ],
+        [
+                "consumer_tiff2bw",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 380"
+        ],
+        [
+                "consumer_tiff2rgba",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 273"
+        ],
+        [
+                "consumer_tiffdither",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 369"
+        ],
+        [
+                "consumer_tiffmedian",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 323"
+        ],
+        [
+                "network_dijkstra",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 782339"
+        ],
+        [
+                "network_patricia",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 1886"
+        ],
+        [
+                "office_rsynth",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 354"
+        ],
+        [
+                "security_blowfish_d",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 25284"
+        ],
+        [
+                "security_blowfish_e",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 25493"
+        ],
+        [
+                "security_rijndael_d",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 785"
+        ],
+        [
+                "security_rijndael_e",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 705"
+        ],
+        [
+                "security_sha",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 1889"
+        ],
+        [
+                "telecom_adpcm_c",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 1512"
+        ],
+        [
+                "telecom_adpcm_d",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 2849"
+        ],
+        [
+                "telecom_CRC32",
+                "clang -O3 *.c -I. -o a.out -lm",
+                "./__run 1 587"
+        ]
+]
